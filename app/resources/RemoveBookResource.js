@@ -5,7 +5,7 @@
 
 
     module.exports = function (id, callback) {
-
+      callback(LibraryDAO.writeXMLFile(id))
     };
 
 }());

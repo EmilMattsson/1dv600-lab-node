@@ -14,11 +14,11 @@
 
         // Get the entire file from the file system.
         readXMLFile: function(callback) {
-          fs.readFile('/vagrant/books.xml', function(err, data) {
+          fs.readFile('/vagrant/books.xml', (err, data) => {
             if (err) throw err;
 
             let parser = new xml2js.Parser()
-            parser.parseString(data, function(err, result) {
+            parser.parseString(data, (err, result) => {
               if (err) throw err;
 
               xmlFile = result

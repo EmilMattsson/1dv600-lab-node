@@ -8,14 +8,6 @@
     <publish_date>1865-11-26</publish_date>
     <description>Alice in Wonderland tells of a girl named Alice falling through a rabbit hole into a fantasy world populated by peculiar, anthropomorphic creatures. The tale plays with logic, giving the story lasting popularity with adults as well as with children. It is considered to be one of the best examples of the literary nonsense genre. Its narrative course and structure, characters and imagery have been enormously influential in both popular culture and literature, especially in the fantasy genre.</description>
   </book>
-  <book id="6">
-    <author>Astrid Lindgren</author>
-    <title>Ronia the Robbers Daughter</title>
-    <genre>Fantasy</genre>
-    <price>79</price>
-    <publish_date>1981-04-23</publish_date>
-    <description>Ronia is a girl growing up among a clan of robbers living in a castle in the woodlands of early-Medieval Scandinavia. As the only child of Matt, the chief, she is expected to become the leader of the clan someday. Their castle, Matts Fort, is split in two parts by a lightning bolt on the day of Ronias birth. Ronia grows up with Matts clan of robbers as her only company, until a rival robber group led by Borka moves into the other half of the castle, exacerbating the longstanding rivalry between the two bands.</description>
-  </book>
   <book id="7">
     <author>Dan Brown</author>
     <title>The Da Vinci Code</title>

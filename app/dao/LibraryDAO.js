@@ -19,9 +19,9 @@
             parser.parseString(data, function(err, result) {
               if (err) throw err;
               let catalog = result.catalog
-              let c = catalog.book
+              let books = catalog.book
               var bookList = []
-              c.forEach(book => {
+              books.forEach(book => {
                 let b = new Book(book.$.id, book.author, book.title, book.genre, book.price, book.publish_date, book.description)
                 bookList.push(b)
               })

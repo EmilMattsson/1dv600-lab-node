@@ -27,7 +27,14 @@
 
               let bookList = []
               books.forEach(book => {
-                let b = new Book(book.$.id, book.title, book.author, book.genre, book.price, book.publish_date, book.description)
+                let b = new Book(
+                  book.$.id,
+                  book.title,
+                  book.author, 
+                  book.genre,
+                  book.price,
+                  book.publish_date,
+                  book.description)
                 bookList.push(b)
               })
               callback(bookList)
